@@ -11,3 +11,9 @@ Set to English(US) as Primary Language.
 ## Install core apps to web development
 - Google Chrome
 - Xcode (to use homebrew)
+
+
+#### Homebrew
+0. Install Xcode
+1. run 'xcode-select --install'
+2. run homebrew install command from [brew.sh](http://brew.sh/)
