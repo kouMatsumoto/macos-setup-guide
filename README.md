@@ -17,3 +17,4 @@ Set to English(US) as Primary Language.
 0. Install Xcode
 1. run 'xcode-select --install'
 2. run homebrew install command from [brew.sh](http://brew.sh/)
+3. run 'brew -v' 
