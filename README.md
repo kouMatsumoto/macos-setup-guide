@@ -1,2 +1,2 @@
-# macos-setup-guide
-My MacOS setup guide.
+# MacOSX Setup Guide
+
