@@ -52,23 +52,22 @@ Then, make sure the file is created by above ls command.
 
 
 # Install core software to Web development
-These are core applications in Node.js Web development.
+These are necessities in Node.js Web development.
 
 
 ### Google Chrome
-Google Chrome is a popular browser but very strong tool as debugger.
-This can debug HTML, CSS, JavaScript and even Node.js server.
+Google Chrome is a popular browser but very strong tool as debugger.  
+Google Chrome can debug HTML, CSS, JavaScript and even Node.js server.
 
 Get from [here](https://www.google.com/chrome/browser/desktop/index.html)
 
 
 ### Homebrew
-Homebrew is one of package managers for MacOS
-To install and manage other software, this make your work easy.
-To install Homebrew, there are several steps.
+Homebrew is one of package managers for MacOS that make your software management easy.  
+There are several steps in installing Homebrew.
 
-First, install Xcode from App Store.
-Xcode is needed to install Command Line Tools, and Command Line Tools is needed so that your Mac could use gcc, make, and other commands.
+First, install Xcode from App Store.  
+Xcode is needed to install Command Line Tools, and Command Line Tools is needed so that your Mac could use gcc, make, other commands.
 
 After installing Xcode, run below command to install Command Line Tools.
 ```
@@ -79,10 +78,10 @@ After installing Command Line Tools, run install command for Homebrew.
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-There is a possibility The command above is old.
-Confirm latest install command from [here](http://brew.sh/index.html)
+The above command may be a little bit old.  
+Confirm latest installation from [here](http://brew.sh/index.html).
 
-After installing Homebrew, Check whether you can use brew command.
+Then, Verify you can use brew by next command.
 ```
 $ brew -v
 ```
@@ -91,7 +90,7 @@ $ brew -v
 ### Git
 Git is modern version control system.
 
-Install with Homebrew
+Install with Homebrew.
 ```
 $ brew install git
 ```
@@ -104,31 +103,29 @@ git version 2.9.2
 
 
 ### nvm
-nvm stands for Node.js Version Manager.
-This helps you to manage Node.js development environment.
-
+nvm stands for Node.js Version Manager and it helps you to manage Node.js environment.  
 I highly recommend to use nvm instead of raw Node.js.
 
-See installation in [github.com](https://github.com/creationix/nvm)
+See installation in [github.com](https://github.com/creationix/nvm).
 
-After installing nvm, then install Node.js through nvm.
+After installing, then install Node.js through nvm.
 Check Node.js versions you can install.
 ```
 $ nvm ls-remote
 ```
 
-Select a version to install, or use latest
+Select a version to install, or use latest.
 ```
 $ nvm install vX.X.X
 $ nvm install node
 ```
 
-Switch to installed Node.js version to use
+Switch to installed Node.js version to use.
 ```
 $ nvm use vX.X.X
 ```
 
-Make sure you can use Node.js
+Make sure you can use Node.js.
 ```
 $ node -v
 $ npm -v
