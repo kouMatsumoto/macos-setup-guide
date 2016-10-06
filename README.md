@@ -28,7 +28,7 @@ Before installing applications to development, Make sure your MacOSX is ready.
 
 
 ### System Language
-In programming, you should use English to write codes anywhere include inner comments to avoid useless confusion.  
+In codeing, you should use English anywhere even on comments to avoid useless confusion.  
 I recommend to set System language English as primary language.
 
 
