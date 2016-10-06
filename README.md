@@ -3,7 +3,7 @@
 
 ---
 
-> If you are Windows user, see [Windows Setup Guides](https://github.com/kouMatsumoto/windows10-setup-guide)
+> If you are Windows user, see [Windows Setup Guides](https://github.com/kouMatsumoto/windows10-setup-guide)  
 > If you are Ubuntu user, see [Ubuntu Setup Guides](https://github.com/kouMatsumoto/ubuntu-setup-guide)
 
 ---
@@ -17,6 +17,7 @@
   1. [Install core software to Web development](#install-core-software-to-web-development)
     1. [Google Chrome](#google-chrome)
     1. [Homebrew](#homebrew)
+    1. [Git](#git)
     1. [nvm](#nvm)
 
 
@@ -86,6 +87,20 @@ After installing Homebrew, Check whether you can use brew command.
 $ brew -v
 ```
 
+
+### Git
+Git is modern version control system.
+
+Install with Homebrew
+```
+$ brew install git
+```
+
+Verify the installation was successful by next command.
+```
+$ git --version
+git version 2.9.2
+```
 
 
 ### nvm
