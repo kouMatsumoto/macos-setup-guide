@@ -33,8 +33,7 @@ I recommend to set System language English as primary language.
 
 
 ### Create bash_profile
-'~/.bash_profile' is used to set user environment variables.
-As default, '~/.bash_profile' doesn't exist.
+'~/.bash_profile' is used to set user environment variables. As default, '~/.bash_profile' doesn't exist.  
 Check whether '~/.bash_profile' exists by ls command.
 ```
 $ ls ~/.bash_profile
