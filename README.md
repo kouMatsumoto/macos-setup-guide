@@ -24,13 +24,13 @@
 
 
 # First MacOSX System Settings
-Before installing applications to development, you should confirm your MacOSX is ready.
-Make sure all settings have been set.
+Before installing applications to development, Make sure your MacOSX is ready.
 
 
 ### System Language
-In programming, you should use English to write codes anywhere include inner comments.
-To avoid useless confusion, it's better to set System language English as primary language.
+In programming, you should use English to write codes anywhere include inner comments to avoid useless confusion.  
+I recommend to set System language English as primary language.
+
 
 ### Create bash_profile
 '~/.bash_profile' is used to set user environment variables.
